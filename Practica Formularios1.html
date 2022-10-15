@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIOS</title>
+<link href="style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Encuesta sobre adicción</h1>
+</header>
+<nav>
+	 <ul id="menu_interno">
+      <li><a href="index.html">Menú principal</a></li>
+	</ul>
+	</nav>
+<main>
+  <section>
+    <h2>Sobre ti</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum delectus possimus animi error optio eaque cumque natus amet in voluptatem praesentium, consequuntur accusamus ut laudantium nostrum similique itaque illum numquam quas voluptate dicta, ipsa laboriosam nobis consequatur. Sunt, illum, nobis!</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="Apellido">Edad:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br> <br>
+		 <label for="Apellido">Ocupación:</label>
+      <input type="text" name="Ocupación" id="Ocupación">
+		<br><br>
+      <input type="submit" name="boton 1" id="boton 1" value="Enviar">
+		<br>
+      
+    </form>
+  </section>
+  <section>
+    <h2>Sobre adicciones</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum delectus possimus animi error optio eaque cumque natus amet in voluptatem praesentium, consequuntur accusamus ut laudantium nostrum similique itaque illum numquam quas voluptate dicta, ipsa laboriosam nobis consequatur. Sunt, illum, nobis!</p>
+    <form id="form2" name="form2" method="post">
+      <label for="select">¿De qué país nos visitas?:</label>
+      <select name="select" id="select">
+        <option value="MX">México</option>
+        <option value="USA">Estados Unidos</option>
+        <option value="ES">España</option>
+        <option value="AR">Argentina</option>
+        <option value="C">Colombia</option>
+        <option value="IT">Italia</option>
+      </select>
+      <br> <br>
+	  <label>Género</label>
+	  <p>
+		  <label>
+		    <input type="radio" name="Genero" value="Hombre" id="Genero_0">
+		    Hombre</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="Genero" value="Mujer" id="Genero_1">
+		    Mujer</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="Genero" value="otro" id="Genero_2">
+		    Otro</label>
+		  <br><br>
+	  </p>
+		<label>¿Sabes qué son las adicciones?</label>
+		<table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia temporal" value="Hotel" id="Residenciatemporal_0">
+		      Sí</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia temporal" value="Particular" id="Residenciatemporal_1">
+		      No</label></td>
+	      </tr>
+			</table>
+		<br>
+		   <label for="textarea">Escribe un breve texto de lo que es la adicción para ti :</label>
+		<br>
+    <textarea name="textarea" class="cajatexto"></textarea>
+		<br> <br>
+	  <label>¿Consumes alguna droga?</label>
+	  <p>
+		  <label>
+		    <input type="radio" name="si" value="si" id="si">
+	    &nbsp;Sí</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="no" value="no" id="no">
+		    No</label>
+<br><br>
+		  <label>¿Qué drogas has consumido?</label>
+		<table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Alcohol" value="Alcoholl" id="Alcohol">
+		      Alcohol</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Cigarros" value="Tabaco" id="Tabaco">
+		     Tabaco</label></td>
+	      </tr>
+			  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Marihuana" value="Marihuana" id="Marihuana">
+		     Marihuana</label></td>
+	      </tr>
+			  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Alucinogenos" value="Alucinogenos" id="Alucinogenos">
+		     Alucinogenos</label></td>
+	      </tr>
+			<tr>
+		    <td><label>
+		      <input type="checkbox" name="Otros" value="Otros" id="Otros">
+		     Otros</label></td>
+	      </tr>
+	  </table>
+	  </p>
+<br><br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Si necesitas ayuda, puedes contactarnos.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum delectus possimus animi error optio eaque cumque natus amet in voluptatem praesentium, consequuntur accusamus ut laudantium nostrum similique itaque illum numquam quas voluptate dicta, ipsa laboriosam nobis consequatur. Sunt, illum, nobis!</p>
+    <form id="form3" name="form3" method="get">
+    <label for="textfield" class="form3text">Nombre:</label>
+			<br>
+    <input type="Nombre2" name="Nombre" id="nombre2">
+    <label>&nbsp;</label>
+    <label for="email" class="form3text">Email:</label>
+			<br>
+    <input type="email" name="email" id="email">
+			<br>
+    <label for="textarea" class="form3text">Mensaje:</label>
+		<br>
+    <textarea name="textarea" id="textarea"></textarea>
+    <input type="submit" name="submit2" id="submit2" value="Enviar">
+	  </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Sandra Dzoara Hernández Rendón</h6>
+</footer>
+</body>
+</html>
